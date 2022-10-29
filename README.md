@@ -208,3 +208,33 @@ Karena banyak informasi dari Handler, buatlah subdomain yang khusus untuk operat
 
 ## Nomor 7
 Untuk informasi yang lebih spesifik mengenai Operation Strix, buatlah subdomain melalui Berlint dengan akses `strix.operation.wise.A07.com` dengan alias `www.strix.operation.wise.A07.com` yang mengarah ke Eden
+
+## Nomor 8
+Setelah melakukan konfigurasi server, maka dilakukan konfigurasi Webserver. Pertama dengan webserver `www.wise.A07.com.` Pertama, Loid membutuhkan webserver dengan DocumentRoot pada `/var/www/wise.A07.com`
+
+## Nomor 9
+Setelah itu, Loid juga membutuhkan agar url `www.wise.yyy.com/index.php/home` dapat menjadi menjadi `www.wise.yyy.com/home`
+
+## Nomor 10
+Setelah itu, pada subdomain `www.eden.wise.yyy.com`, Loid membutuhkan penyimpanan aset yang memiliki DocumentRoot pada `/var/www/eden.wise.yyy.com`
+
+## Nomor 11
+Akan tetapi, pada folder `/public`, Loid ingin hanya dapat melakukan directory listing saja
+
+## Nomor 12
+Tidak hanya itu, Loid juga ingin menyiapkan error file `404.html` pada folder `/error` untuk mengganti error kode pada apache
+
+## Nomor 13
+Loid juga meminta Franky untuk dibuatkan konfigurasi virtual host. Virtual host ini bertujuan untuk dapat mengakses file asset` www.eden.wise.A07.com/public/js` menjadi `www.eden.wise.A07.com/js`
+
+## Nomor 14
+Loid meminta agar `www.strix.operation.wise.A07.com` hanya bisa diakses dengan `port 15000` dan `port 15500 (14)` dengan autentikasi username Twilight dan password `opStrix dan file di /var/www/strix.operation.wise.A07`
+
+## Nomor 15
+dengan autentikasi username Twilight dan password opStrix dan file di `/var/www/strix.operation.wise.A07`
+
+## Nomor 16
+dan setiap kali mengakses IP Eden akan dialihkan secara otomatis ke `www.wise.A07.com`
+
+## Nomor 17
+Karena website `www.eden.wise.A07.com` semakin banyak pengunjung dan banyak modifikasi sehingga banyak gambar-gambar yang random, maka Loid ingin mengubah request gambar yang memiliki substring `“eden”` akan diarahkan menuju `eden.png.` Bantulah Agent Twilight dan Organisasi WISE menjaga perdamaian!
